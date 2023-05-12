@@ -1,23 +1,13 @@
 import React from 'react'
 // import {useNavigate} from 'react-router-dom'
-class AboutUs extends React.Component{
-    constructor(props){
-        super(props)
-    }
-    display=(e)=>{
-        // e.preventDefault()
-        // const navigate= useNavigate()
-       this.props.history.push("/login")
-        console.log("Aboutsus")
-    }
-    render(){
+
+function AboutUs(){
+
     return(
+
         <div>
-            <form>
-                <button onClick={()=>this.display()}>Click</button>
-            </form>
+            <h1>This web site is about EMS.An employee management system is technology designed to streamline core HR services and improve workforce productivity.<p> It accomplishes these goals largely by automating labor-intensive, administrative tasks and using analytics to drive business decisions.</p></h1>
         </div>
     )
-  }
 }
 export default AboutUs

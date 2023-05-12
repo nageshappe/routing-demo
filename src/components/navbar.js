@@ -11,7 +11,7 @@ export default function Navbar() {
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <Link class="nav-link active" aria-current="page" to="/list">Home</Link>
+                            <Link class="nav-link active" aria-current="page" to="/login">Home</Link>
                         </li>
                         <li class="nav-item">
                             <Link class="nav-link" to="/about">AboutUs</Link>
@@ -20,7 +20,7 @@ export default function Navbar() {
                             <Link class="nav-link" to="/login">login</Link>
                         </li>
                         <li class="nav-item">
-                            <Link class="nav-link disabled" to="/signup" tabindex="-1" aria-disabled="true">Signup</Link>
+                            <Link class="nav-link " to="/signup" tabindex="-1" aria-disabled="false">Signup</Link>
                         </li>
                     </ul>
                 </div>
